@@ -1,5 +1,5 @@
-#Week 1: Up to Speed
-##Day 1
+# Week 1: Up to Speed
+## Day 1
 - Course intro and requirements
 - Dogfooding
 - Tools: IDE vs text editor
@@ -9,7 +9,7 @@
 	- git -demo branches with webstorm
 - Some resources
 
-##Day 2
+## Day 2
 - Some JS peculiarities
 	- Semicolons or no?
 	- Versions and compatibility
@@ -30,15 +30,15 @@
 	- Callbacks / lambda functions
 	- Promises
 
-##Day 3
+## Day 3
 - Objects
 - JSON
 - ES6 collections
 	- map
 	- set
 
-#Week 2: Back End
-##Day 1
+# Week 2: Back End
+## Day 1
 - Node
 - Express
 	- Middleware (standard and custom)
@@ -47,44 +47,44 @@
 	- Using Postman
 	- Request and response objects
 	- Headers
-##Day 2
+## Day 2
 - RESTful architectures
 
-##Day 3
+## Day 3
 - Testing using mocha and chai
-##Day 4
+## Day 4
 
-#Week 3: Data
-##Day 1
+# Week 3: Data
+## Day 1
 - Relational vs nonrelational databases
 - mongoDB introduction
-##Day 2
+## Day 2
 - ODM using Mongoose
 - Data operations 
-##Day 3
-##Day 4
+## Day 3
+## Day 4
 
-#Week 4: Frontend
-##Day 1
+# Week 4: Frontend
+## Day 1
 - Angular
-##Day 2
-##Day 3
-##Day 4
+## Day 2
+## Day 3
+## Day 4
 
-#Week 5: 
-##Day 1
-##Day 2
-##Day 3
-##Day 4
+# Week 5: 
+## Day 1
+## Day 2
+## Day 3
+## Day 4
 
-#Week 6: 
-##Day 1
-##Day 2
-##Day 3
-##Day 4
+# Week 6: 
+## Day 1
+## Day 2
+## Day 3
+## Day 4
 
-#Week 7: 
-##Day 1
-##Day 2
-##Day 3
-##Day 4
+# Week 7: 
+## Day 1
+## Day 2
+## Day 3
+## Day 4
