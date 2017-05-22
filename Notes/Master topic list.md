@@ -1,5 +1,5 @@
-#Master topic list
-Course intro and requirements
+# Master topic list
+## Course intro and requirements
 Webstorm: Getting a license (https://www.jetbrains.com/student/?fromMenu)
 Chrome
 Dash?
@@ -8,7 +8,7 @@ git - demo with local text files
 git -demo branches with webstorm
 Intro - what is mean
 
-##JAVASCRIPT
+## JAVASCRIPT
 javascript engine - event loops
 asynchronicity
 anonymous functions (lambdas)
@@ -25,46 +25,46 @@ https://developer.mozilla.org/en/JavaScript/Reference/Operators/Comparison_Opera
 ECMAscript 6 Node.js compatibility: http://node.green
 NOTE: Must enable ES6 in Webstorm
 
-##JQUERY
+## JQUERY
 
-##AJAX
+## AJAX
 
-##NODE
+## NODE
 npm
 templating: EJS, Jade
 
-##EXPRESS
+## EXPRESS
 installation
 routing
 middleware
 
-##REST
+## REST
 Look at exernal APIs
 REST definitions (from data lecture?)
 API calls
 
-##MONGO
+## MONGO
 relational databases vs non-relational databases
 about mongoDB
 schemas (object models) with mongoose
 
-##ANGULAR
+## ANGULAR
 Basics and setup
 Scope
 routing
 bower
 
-##UNCATEGORIZED
+## UNCATEGORIZED
 configuration files
 webstorm installation, plugins
 debugging front end
 debugging back end
 generators?
 
-##DESIGN
+## DESIGN
 Single-page Apps (SPA)
 
-##PROJECT
+## PROJECT
 postman
 setup: express-generator, yeoman
 gulp and grunt
@@ -72,11 +72,11 @@ OAUTH - Twitter etc with Passport
 using session variables
 consuming APIs
 
-##TESTING
+## TESTING
 Mocha / Chai / Sinon
 postman (collections)
 
-##DEPLOYMENT
+## DEPLOYMENT
 AWS: Lightsail
 Lambda
 EC3
