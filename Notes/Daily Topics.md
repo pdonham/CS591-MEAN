@@ -24,21 +24,22 @@
 		- automatic globals
 		- hoisting
 		- ‘use strict’ and its effects
-	- Coercion
-- The JS event loop
-- Handling asynchronous events
-	- Callbacks / lambda functions
-	- Promises
 
 ## Day 3
 - Objects
 - JSON
+- Coercion
+- Generators
 - ES6 collections
 	- map
 	- set
 
 # Week 2: Back End
 ## Day 1
+- The JS event loop
+- Handling asynchronous events
+	- Callbacks / lambda functions
+	- Promises
 - Node
 - Express
 	- Middleware (standard and custom)
