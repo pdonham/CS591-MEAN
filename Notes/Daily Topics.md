@@ -28,6 +28,7 @@
 ## Day 3
 - Objects
 - JSON
+- ES6 classes
 - Coercion
 - Generators
 - ES6 collections
