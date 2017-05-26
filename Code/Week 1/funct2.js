@@ -13,3 +13,12 @@ function logit (text) {
 var log = logit("text passed in ")
 log()
 console.log(getVal())
+
+let anEgg = {
+    weight: 3.5,
+    color: "blue",
+    size: "large",
+    getWeight: function() { return this.weight}
+}
+
+console.log(anEgg.getWeight())
