@@ -7,6 +7,7 @@
 - git - demo with local text files
 - git -demo branches with webstorm
 - Intro - what is mean
+- Regular expressions (regexp)
 
 ## JAVASCRIPT
 - javascript engine - event loops
