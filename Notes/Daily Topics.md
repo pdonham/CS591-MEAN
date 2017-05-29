@@ -35,27 +35,63 @@
 	- map
 	- set
 
+***
 # Week 2: Back End
+Goals for this week: 
+- Understand the JS event loop
+- Use promises to manage asynchronous events
+- Build a RESTful application using Express
+- Use Postman to test backend applications
+- Set up github repo for class work
+
 ## Day 1
-- The JS event loop
+- Intro to asynchronous events
+- The JS event loop (video)
 - Handling asynchronous events
 	- Callbacks / lambda functions
-	- Promises
+	- ES6 Promises
+		- resolve, reject
+		- all and race
+		- thenables
+	- aync package
+	- ES6 async / await
 - Node
-- Express
-	- Middleware (standard and custom)
-	- Routing
-	- Regular expressions (regexp)
-	- Using Postman
-	- Request and response objects
-	- Headers
+	- Installation
+	- What do you get?
+	- Packages and npm (npmjs.org)
+	- Some common packages
+		- request
 ## Day 2
-- RESTful architectures
+- Express intro
+- Installing Express
+- Parts of a Node/Express app
+- Express middleware
+	- Request / response flow
+	- Request and response objects
+- package.json
+- RESTful architectures in N/E
+- Routing
+	- app vs router
+	- Simple routes 
 
 ## Day 3
+- Back-end templating
+	- EJS
+	- Jade
+	- Other engines
+- Using Postman
+	- Headers
+	- Parameters
 - Testing using mocha and chai
-## Day 4
+- error-first pattern
+- Debugging backend code
 
+## Day 4
+- Writing and using config files
+- Consuming APIs
+- Project discussion
+
+***
 # Week 3: Data
 ## Day 1
 - Relational vs nonrelational databases
@@ -64,27 +100,30 @@
 - ODM using Mongoose
 - Data operations 
 ## Day 3
+- Authorization
+	- Local
+	- OAUTH (Twitter, Facebook et al)
 ## Day 4
-
+***
 # Week 4: Frontend
 ## Day 1
 - Angular
 ## Day 2
 ## Day 3
 ## Day 4
-
+***
 # Week 5: 
 ## Day 1
 ## Day 2
 ## Day 3
 ## Day 4
-
+***
 # Week 6: 
 ## Day 1
 ## Day 2
 ## Day 3
 ## Day 4
-
+***
 # Week 7: 
 ## Day 1
 ## Day 2
