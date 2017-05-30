@@ -11,9 +11,15 @@ const testStr = function (strVal) {
 
     })
 }
-const start = Promise.resolve()
+testStr('the')
+    .then((returnValue) => testStr(returnValue + ' blah blah blah')
+        .then((returnValue) => console.log(returnValue)
+    ))
+    .catch((errval) => console.log('error:', errval))
 
-Promise.race([testStr('as'), testStr('the rain in spain')])
-    .then(() => console.log("Completed all promises"))
-    .catch((err) =>  console.log(err.originalString, 'was', err.reason))
+//const start = Promise.resolve()
+//
+// Promise.race([testStr('as'), testStr('the rain in spain')])
+//     .then(() => console.log("Completed all promises"))
+//     .catch((err) =>  console.log(err.originalString, 'was', err.reason))
 //console.log([1,2,3,4,5].reduce((accum, curr) => accum * curr))

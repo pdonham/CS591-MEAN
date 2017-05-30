@@ -1,6 +1,6 @@
 const request = require("request")
 
-const doReq = function () {
+const doReq =  function () {
     return new Promise(function (resolve, reject) {
         const options = {
             method : 'GET',
@@ -23,13 +23,12 @@ const doReq = function () {
 
     })
 }
-
-const test = doReq()
-console.log(test);
-test
+console.log('start')
+doReq()
     .then(function (body) {
         const value = JSON.parse(body).args.test
         console.log(value);
+        console.log('done')
 
     })
 

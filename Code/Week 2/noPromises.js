@@ -11,6 +11,7 @@ const doReq = function () {
         }
     };
     console.log('received request');
+
     request(options, function (error, response, body) {
         console.log('completed request');
         if (error) {
