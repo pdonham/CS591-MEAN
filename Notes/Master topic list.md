@@ -61,6 +61,7 @@
 - debugging front end
 - debugging back end
 - generators?
+- Twilio serverless environment https://www.programmableweb.com/news/why-twilios-function-strategy-revolutionary-and-other-api-providers-should-pay-attention/analysis/2017/05/25?utm_content=bufferaf75f&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
 
 ## DESIGN
 - Single-page Apps (SPA)
