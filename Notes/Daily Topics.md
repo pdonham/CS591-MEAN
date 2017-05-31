@@ -69,12 +69,19 @@ Goals for this week:
 	- Request / response flow
 	- Request and response objects
 - package.json
-- RESTful architectures in N/E
-- Routing
-	- app vs router
-	- Simple routes 
+
 
 ## Day 3
+- modules and require / module.exports
+- RESTful architectures in Node/Express
+- Routing
+	- app vs router
+	- Simple routes
+	- Routes with parameters
+	- Consuming form fields
+- Making HTTP requests to external sources
+	- The request package
+	- Consuming JSON responses
 - Back-end templating
 	- EJS
 	- Jade
@@ -82,13 +89,13 @@ Goals for this week:
 - Using Postman
 	- Headers
 	- Parameters
-- Testing using mocha and chai
+	- Generating code
 - error-first pattern
 - Debugging backend code
 
 ## Day 4
 - Writing and using config files
-- Consuming APIs
+- Testing using mocha and chai
 - Project discussion
 
 ***
