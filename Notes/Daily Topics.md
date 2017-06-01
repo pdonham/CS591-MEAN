@@ -43,6 +43,7 @@ Goals for this week:
 - Build a RESTful application using Express
 - Use Postman to test backend applications
 - Set up github repo for class work
+- Reminder: Still need to cover promise race/all and async package
 
 ## Day 1
 - Intro to asynchronous events
