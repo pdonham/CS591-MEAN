@@ -83,19 +83,20 @@ Goals for this week:
 - Making HTTP requests to external sources
 	- The request package
 	- Consuming JSON responses
-- Back-end templating
-	- EJS
-	- Jade
-	- Other engines
 - Using Postman
 	- Headers
 	- Parameters
 	- Generating code
-- error-first pattern
 - Debugging backend code
 
 ## Day 4
+- Modules: exports and module.exports
 - Writing and using config files
+- error-first pattern
+- Back-end templating
+	- EJS
+	- Jade
+	- Other engines
 - Testing using mocha and chai
 - Project discussion
 
