@@ -1,6 +1,8 @@
 //Create a new express router
 const express = require('express')
 const router = express.Router()
+const request = require("request");
+
 /*
  GET routes
 
@@ -9,13 +11,46 @@ const router = express.Router()
  i.e. /params?p1=foo&p2=bar. For this kind of query, the
  params are on req.query.variable.
  */
-
 router.get('/', function (req, res, next) {
     //One way to access the params is on the req.query object
     console.log("req.query: ", req.query.p1, req.query.p2)
     //send back what was received
     res.json(req.query)
 })
+
+router.get('/fx', function (req, res, next) {
+
+    const options = { method: 'POST',
+        url: 'http://apilayer.net/api/live',
+        qs:
+            { access_key: '707d4d2111a1976c7c4bbd767a9bf3a6',
+                source: 'USD',
+                currencies: 'EUR',
+                format: '1' },
+        headers:
+            { 'content-type': 'application/x-www-form-urlencoded',
+                'postman-token': 'b9e3fb19-ae2d-8dc9-6797-23536d27e085',
+                'cache-control': 'no-cache' } };
+
+    request(options, function (error, response, body) {
+        if (error) throw new Error(error);
+
+        console.log(body)
+        res.json(body)
+
+    });
+})
+/*
+Create a route to match a regexp (regular expressions)
+ */
+router.get('/[a-z].*/', function (req, res, next) {
+    console.log("matched regexp")
+    res.send("matched regexp", req.originalUrl)
+})
+
+/*
+Create middleware that grabs a param and does something with it...
+ */
 
 /*
 We also can pick off parts of the URI and use them as parameters.
@@ -33,6 +68,13 @@ router.get('/:name', function (req, res, next) {
     res.send("Welcome, " + theName + " the " + theBreed)
 //    next()
 })
+router.param('name', function (req, res, next, value) {
+    console.log('got', value)
+    req.params.name += " the great"
+    req.params.bar = "baz"
+    next()
+})
+
 router.get('/lab', function (req, res, next) {
     let theBreed = req.params.breed
     console.log("Saw", theName, "a", theBreed, "in", req.originalUrl)
