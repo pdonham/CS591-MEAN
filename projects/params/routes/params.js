@@ -108,9 +108,19 @@ is done in middleware, in this case from app.js:
 
 */
 router.post('/', function (req, res, next) {
-    console.log(req.body)
-    res.json(req.body)
+    console.log(req.body.test1)
+    for (item in req.body) {
+        console.log(item)
+    }
+    res.json(req.body.test1)
 })
 
 //export the router object to expose it in other modules
 module.exports = router
+
+
+/*
+const foo = (function(baz(), function (err, result) {
+    if !err { success result}
+    else {something else}
+} )*/
