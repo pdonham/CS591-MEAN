@@ -93,26 +93,37 @@ Goals for this week:
 - Modules: exports and module.exports
 - Writing and using config files
 - error-first pattern
-- Back-end templating
-	- EJS
-	- Jade
-	- Other engines
-- Testing using mocha and chai
 - Project discussion
 
 ***
 # Week 3: Data
 ## Day 1
+- Back-end templating
+	- EJS
+	- Jade
+	- Other engines
 - Relational vs nonrelational databases
 - mongoDB introduction
+- Using the mongo shell
+- Documentation
+- mongoDB cursors
+- Simple database operations (insert, find, update)
+- Javascript in the shell
+
 ## Day 2
+- Advanced mongoDB concepts (embedded references etc)
+- Plugging mongoDB into Node/Express
 - ODM using Mongoose
-- Data operations 
+
 ## Day 3
 - Authorization
 	- Local
 	- OAUTH (Twitter, Facebook et al)
+- Connecting Express routes and mongoDB data
+
 ## Day 4
+- Testing using mocha and chai
+
 ***
 # Week 4: Frontend
 ## Day 1
@@ -134,6 +145,7 @@ Goals for this week:
 ## Day 4
 ***
 # Week 7: 
+- Project demonstrations
 ## Day 1
 ## Day 2
 ## Day 3
