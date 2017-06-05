@@ -111,6 +111,8 @@ Goals for this week:
 - Javascript in the shell
 
 ## Day 2
+- request package
+- wrappers for common sites
 - Advanced mongoDB concepts (embedded references etc)
 - Plugging mongoDB into Node/Express
 - ODM using Mongoose
