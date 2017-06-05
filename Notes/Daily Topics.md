@@ -100,7 +100,7 @@ Goals for this week:
 ## Day 1
 - Back-end templating
 	- EJS
-	- Jade
+	- Pug
 	- Other engines
 - Relational vs nonrelational databases
 - mongoDB introduction
