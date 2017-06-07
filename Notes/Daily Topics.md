@@ -107,24 +107,26 @@ Goals for this week:
 - Using the mongo shell
 - Documentation
 - mongoDB cursors
+
+
+## Day 2
 - Simple database operations (insert, find, update)
 - Javascript in the shell
 
-## Day 2
-- request package
-- wrappers for common sites
+## Day 3
 - Advanced mongoDB concepts (embedded references etc)
 - Plugging mongoDB into Node/Express
 - ODM using Mongoose
-
-## Day 3
-- Authorization
-	- Local
-	- OAUTH (Twitter, Facebook et al)
 - Connecting Express routes and mongoDB data
 
 ## Day 4
+- Authorization
+	- Local
+	- OAUTH (Twitter, Facebook et al)
+- Passport
+- wrappers for common sites
 - Testing using mocha and chai
+- request package
 
 ***
 # Week 4: Frontend
