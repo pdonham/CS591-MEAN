@@ -120,26 +120,38 @@ Goals for this week:
 - Connecting Express routes and mongoDB data
 
 ## Day 4
-- Authorization
-	- Local
-	- OAUTH (Twitter, Facebook et al)
-- Passport
-- wrappers for common sites
-- Testing using mocha and chai
+- Finish examining REST routes on sample app
 - request package
 
 ***
 # Week 4: Frontend
 ## Day 1
-- Angular
+- Authorization and authentication
+- Storing local passwords
+	- crypto packages
+	- salting passwords
+- Passport
+	- passport-local
+	- Protecting individual routes
+	- Passing information to the front end
+
 ## Day 2
+- OAUTH (using passport)
+- JWTs
+
 ## Day 3
+- Intro to Angular 1.5
+- Angular models
+
 ## Day 4
-***
+- Angular controllers
+
 # Week 5: 
 ## Day 1
+- Angular services
 ## Day 2
 ## Day 3
+- Angular partials and SPAs
 ## Day 4
 ***
 # Week 6: 
