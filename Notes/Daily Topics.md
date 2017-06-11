@@ -134,6 +134,7 @@ Goals for this week:
 	- passport-local
 	- Protecting individual routes
 	- Passing information to the front end
+	- passport-local-mongoose
 
 ## Day 2
 - OAUTH (using passport)
