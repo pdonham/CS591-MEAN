@@ -30,6 +30,7 @@ router.post('/db', function(req, res, next) {
         //send back the new person
     else {res.send (aPerson)
   })
+})
 
 
 //GET Fetch all users
