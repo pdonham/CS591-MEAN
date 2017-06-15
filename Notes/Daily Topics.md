@@ -150,6 +150,7 @@ Goals for this week:
 # Week 5: 
 ## Day 1
 - Angular services
+- $http interceptors
 ## Day 2
 ## Day 3
 - Angular partials and SPAs
