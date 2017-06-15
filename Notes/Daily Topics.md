@@ -146,6 +146,7 @@ Goals for this week:
 
 ## Day 4
 - Angular controllers
+- Advice on deploying an angular front end from node
 
 # Week 5: 
 ## Day 1
