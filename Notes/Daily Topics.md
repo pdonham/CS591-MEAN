@@ -157,6 +157,7 @@ Goals for this week:
 - $http interceptors
 ## Day 3
 - Angular partials and SPAs
+- Forms and form validations
 ## Day 4
 ***
 # Week 6: 
