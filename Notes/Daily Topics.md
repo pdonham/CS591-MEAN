@@ -145,14 +145,16 @@ Goals for this week:
 - Angular models
 
 ## Day 4
-- Angular controllers
 - Advice on deploying an angular front end from node
 
 # Week 5: 
 ## Day 1
+- Dependency inversion
+- Angular controllers
+
+## Day 2
 - Angular services
 - $http interceptors
-## Day 2
 ## Day 3
 - Angular partials and SPAs
 ## Day 4
