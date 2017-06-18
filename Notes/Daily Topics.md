@@ -165,10 +165,3 @@ Goals for this week:
 ## Day 2
 ## Day 3
 ## Day 4
-***
-# Week 7: 
-- Project demonstrations
-## Day 1
-## Day 2
-## Day 3
-## Day 4
