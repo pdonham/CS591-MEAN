@@ -154,6 +154,7 @@ Goals for this week:
 - ControllerAs syntax vs $scope
 
 ## Day 2
+- Back end is not the application
 - Angular services
 - $http interceptors
 ## Day 3
