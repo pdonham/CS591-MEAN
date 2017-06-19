@@ -149,8 +149,9 @@ Goals for this week:
 
 # Week 5: 
 ## Day 1
-- Dependency inversion
+- Dependency injection
 - Angular controllers
+- ControllerAs syntax vs $scope
 
 ## Day 2
 - Angular services
