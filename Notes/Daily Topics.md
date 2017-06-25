@@ -161,9 +161,17 @@ Goals for this week:
 - Angular partials and SPAs
 - Forms and form validations
 ## Day 4
+- Work day (B23)
 ***
 # Week 6: 
 ## Day 1
+- Quick walkthrough of async package / code
+- Deploying to AWS / Bitnami
+- Scalability
+- Work session in B23
 ## Day 2
+- Project demos
 ## Day 3
+- Project demos
 ## Day 4
+- Wrapup!
